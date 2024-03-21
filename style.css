@@ -53,6 +53,7 @@ a{
 }
 #nav-part1>a>h4:hover{
    border-bottom: 2px solid black;
+   border-top:2px solid #302e14;
 }
 #nav-part2{
     position: absolute;
@@ -85,6 +86,7 @@ a{
   padding: 20px;
   border: 2px solid #000;
   margin-bottom: 20px;
+  color: #fff;
 
 }
 #hero-part1>h1{
@@ -92,27 +94,37 @@ a{
     text-transform: uppercase;
     font-size: 3.5rem;
     margin: 2rem 0;
+    text-shadow: 3px 3px 5px rgb(69, 68, 68);
+    -webkit-text-stroke:1px #6d6d6d;
+    
    
 }
 #hero-part1>h6{
     font-family:serif;
     text-transform:capitalize;
     color: #6b6c6c;
-    font-size: 1rem;
+    font-size: 2rem;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #302e14;
+ 
     
 }
 #hero-part1>h5{
     width:100%;
-    word-wrap: break-word;
    margin:2rem 0;
    color: #6b6c6c;
+   word-wrap: break-word;
+   hyphens: auto; 
+   text-align: left;
 }
 
 #hero-part1>.btn{
     width:50%;
     padding:10px;
-    background-color: rgb(0, 0, 0);
-    color:white;
+    background-color: #d3b66c;
+    border: 1px solid black;
+    color: rgb(57, 44, 57);
+
     border-radius:0 10px 10px 10px;
     text-transform: uppercase;
 }
